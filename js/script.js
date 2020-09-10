@@ -1,22 +1,32 @@
 
 
-var inches = prompt("How many inches of rain fell?");
-console.log(inches="6")
+let rainfall = prompt("How many inches of rain fell?");
+let rainfallInches = "*";
+console.log("Rain:" + rainfallInches.repeat(rainfall));
 
-var fertilizer = prompt("Did you use fertilizer?")
+if (rainfallInches < 10);
+var originalYield = (50 * .8);
 
-if (fertilizer ==="yes") {
-    
+if ((rainfallInches > 10 && rainfallInches < 19));
+var originalYield = 50;
+
+if (rainfallInches >= 20);
+var originalYield = (50 * .9);
+
+let fertilizer = prompt("Did you use fertilizer?");
+
+if (fertilizer==="yes") {
+    var brand = prompt("Did you use premium or regular?");
 } else {
-
-}
-
-var rating = prompt("Did you use premium or regular fertilizer?")
-if(rating === premium){
-
-} else {
-
-}
-console.log()
-
+    console.log("The yield should be " + originalYield + " bushels per acre") 
+} 
     
+var finalYield = (originalYield * 1.15);
+if (brand==="premium");
+console.log("The yield should be " + finalYield + " bushels per acre")
+
+var finalYield = (originalYield * 1.1)
+if (brand==="regular")
+console.log("The yield should be " + finalYield + " bushels per acre")
+
+
