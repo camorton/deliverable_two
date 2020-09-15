@@ -5,9 +5,11 @@ console.log("Rain:" + rainfallInches.repeat(rainfall));
 
 let originalYield=50; 
 let answer = prompt ("Did you use fertilizer?");
-let brand = prompt ("Did you use premium or regular?")
-
-
+let brand = "";
+if (answer === "yes") {
+   brand = prompt ("Did you use premium or regular?");
+}
+ 
 if (rainfall < 10){
     originalYield = (50 * .8);    
 }
